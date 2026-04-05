@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#currency-a, #currency-b {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+    width: 260px;
+    text-align: right;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 260px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#deleteButton {
+    background-color: #f26464;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteButton:hover {
+    background-color: #c85252;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Currency Exchange Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currency Exchange Calculator</h1>
+
+    <!-- Display Area for Currency A (Original Amount) -->
+    <div id="currency-a">
+        <span id="currency-a-input">0</span>
+    </div>
+    
+    <!-- Display Area for Currency B (Converted Amount) -->
+    <div id="currency-b">
+        <span id="currency-b-input">0</span>
+    </div>
+
+    <!-- Buttons for Numbers and Operations -->
+    <div class="calculator">
+        <button class="num" id="1">1</button>
+        <button class="num" id="2">2</button>
+        <button class="num" id="3">3</button>
+        <button class="num" id="add">+</button>
+
+        <button class="num" id="4">4</button>
+        <button class="num" id="5">5</button>
+        <button class="num" id="6">6</button>
+        <button class="num" id="subtract">-</button>
+
+        <button class="num" id="7">7</button>
+        <button class="num" id="8">8</button>
+        <button class="num" id="9">9</button>
+        <button class="num" id="equal">=</button>
+
+        <button class="num" id="clear">C</button>
+        <button class="num" id="0">0</button>
+        <button class="num" id="decimal">.</button>
+        <button id="deleteButton">Delete</button>
+    </div>
+
+    <!-- Custom Exchange Rate -->
+    <div>
+        <label for="rate">Exchange Rate:</label>
+        <input type="number" id="rate" placeholder="Enter exchange rate" value="1">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
